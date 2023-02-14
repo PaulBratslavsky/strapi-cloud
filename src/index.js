@@ -18,5 +18,6 @@ module.exports = {
    */
   bootstrap(/*{ strapi }*/) {
     console.log(strapi.db.config.connection);
+    console.log(process.env);
   },
 };
